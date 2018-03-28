@@ -32,10 +32,10 @@ apidoc:
 clean:
 	@rm -Rf data/db/mysql/*
 	@rm -Rf $(MYSQL_DUMPS_DIR)/*
-	@rm -Rf web/app/vendor
-	@rm -Rf web/app/composer.lock
-	@rm -Rf web/app/doc
-	@rm -Rf web/app/report
+	@rm -Rf $(APP_PATH)/vendor
+	@rm -Rf $(APP_PATH)/composer.lock
+	@rm -Rf $(APP_PATH)/doc
+	@rm -Rf $(APP_PATH)/report
 	@rm -Rf etc/ssl/*
 
 code-sniff:

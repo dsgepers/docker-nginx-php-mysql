@@ -10,8 +10,5 @@ web/app/composer.json
 .idea/**/tasks.xml
 .idea/dictionaries
 
-# Netbeans
-nbproject/
-/nbproject/
-/nbproject/private/
-/nbproject/private/private.properties
+# Data
+/data
