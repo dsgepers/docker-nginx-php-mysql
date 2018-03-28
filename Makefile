@@ -33,7 +33,6 @@ clean:
 	@rm -Rf data/db/mysql/*
 	@rm -Rf $(MYSQL_DUMPS_DIR)/*
 	@rm -Rf $(APP_PATH)/vendor
-	@rm -Rf $(APP_PATH)/composer.lock
 	@rm -Rf $(APP_PATH)/doc
 	@rm -Rf $(APP_PATH)/report
 	@rm -Rf etc/ssl/*
